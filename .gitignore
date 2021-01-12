@@ -122,3 +122,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .idea
+ArduinoKeyboard.iml
+misc.xml
+workspace.xml
