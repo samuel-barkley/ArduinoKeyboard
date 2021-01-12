@@ -124,6 +124,6 @@ dmypy.json
 .pyre/
 
 # .idea
-ArduinoKeyboard.iml
-misc.xml
-workspace.xml
+.idea/ArduinoKeyboard.iml
+.idea/misc.xml
+.idea/workspace.xml
