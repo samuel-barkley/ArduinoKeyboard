@@ -129,3 +129,7 @@ dmypy.json
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+
+.idea/misc.xml
+
+.idea/ArduinoKeyboard.iml
