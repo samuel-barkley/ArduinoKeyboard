@@ -1,4 +1,20 @@
-if WinExist("Streamlabs OBS")
-	WinActivate
+; Check if discord is active. If it is, it will print out an emoji.
+if WinActive("ahk_exe Discord.exe")
+{
+	Send :SeulgiSun:
+	Send {Enter}
+}
 else 
-	Run C:\Program Files\Streamlabs OBS\Streamlabs OBS.exe
+{
+	; Stuff to do if discord is not open.
+	if WinExist("ahk_exe Firefox.exe")
+	{
+		WinActivate
+	}
+	else 
+	{
+		Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox
+	}
+}
+
+

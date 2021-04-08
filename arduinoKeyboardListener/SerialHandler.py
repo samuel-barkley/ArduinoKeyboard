@@ -61,7 +61,6 @@ def handleInput():
                     keyPressed = True
                     openApp("C:\\Users\\samue\\Documents\\Projects\\ArduinoKeyboard\\scripts\\Key03.ahk")
                 elif dataString == "key10":
-
                     keyPressed = True
                     openApp("C:\\Users\\samue\\Documents\\Projects\\ArduinoKeyboard\\scripts\\Key10.ahk")
                 elif dataString == "key11":
